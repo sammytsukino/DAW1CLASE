@@ -1,7 +1,6 @@
 public class Rueda {
 
-    @SuppressWarnings("FieldMayBeFinal")
-    private int capacidadMaxima;
+    private final int capacidadMaxima;
     private int capacidadActual;
 
     public Rueda() {
