@@ -5,7 +5,7 @@ public class Ventana {
         abierta = false;
     }
 
-    public void abrir() {
+    public void abrirVentana() {
         if (!abierta) {
             abierta = true;
             System.out.println("La ventana se ha abierto");
@@ -15,7 +15,7 @@ public class Ventana {
 
     }
 
-    public void cerrar() {
+    public void cerrarVentana() {
         if (abierta) {
             abierta = false;
             System.out.println("La ventana se ha cerrado");
@@ -42,14 +42,18 @@ public class Ventana {
     public static void main(String[] args) {
         Ventana ventana1 = new Ventana();
         System.out.println("Vamos a abrir la ventana.");
-        ventana1.abrir();
+        ventana1.abrirVentana();
         System.out.println("Vamos a cerrar la ventana.");
-        ventana1.cerrar();
+        ventana1.cerrarVentana();
         System.out.println("Vamos a abrir la ventana.");
-        ventana1.abrir();
+        ventana1.abrirVentana();
         System.err.println("Cómo está ahora mismo la ventana?");
         ventana1.abiertoCerrado();
 
+    }
+
+    public boolean isAbierta() {
+        return abierta;
     }
 
 }

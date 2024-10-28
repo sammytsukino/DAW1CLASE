@@ -1,5 +1,9 @@
 public class Puerta {
     private boolean abierta;
+    
+    public Puerta(boolean abierta) {
+        this.abierta = abierta;
+    }
 
     public Puerta() {
         abierta = false;
@@ -46,4 +50,7 @@ public class Puerta {
 
     }
 
+
 }
+
+
