@@ -1,26 +1,33 @@
-public class Rueda (){
+public class Rueda(){
 
 private int capacidadMaxima;
 private int capacidadActual;
 
-public Rueda (){
-    this.capacidadMaxima= 100
-    this.capacidadActual=0
+public Rueda(){
+    this.capacidadMaxima= 100;
+    this.capacidadActual=0;
 }
 
-public Rueda (capacidadActual){
-    capacidadActual=capacidadMaxima
+public void llenarRueda() {
+    if (capacidadActual == capacidadMaxima) {
+        System.out.println("La rueda ya está completamente llena");
+    } else {
+        capacidadActual = capacidadMaxima;
+        System.out.println("La rueda se ha llenado por completo");
+    }
 }
 
-public void llenarRueda (){
-    capacidadActual=capacidadMaxima
-System.out.println("La rueda ya está llena");
+public void vaciarRueda() {
+    if (capacidadActual == 0) {
+        System.out.println("La rueda ya está vacía");
+    } else {
+        capacidadActual = 0;
+        System.out.println("La rueda se ha vaciado por completo");
+    }
 }
 
-public void vaciarRueda (){
-
-    capacidadActual=0;
-    System.out.println("La rueda está vacía");
-
+public int getCapacidadActual() {
+    return capacidadActual;
+}
 
 }
