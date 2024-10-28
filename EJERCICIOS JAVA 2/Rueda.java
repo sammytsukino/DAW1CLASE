@@ -1,9 +1,9 @@
-public class Rueda(){
+public class Rueda() {
 
 private int capacidadMaxima;
 private int capacidadActual;
 
-public Rueda(){
+public Rueda() {
     this.capacidadMaxima= 100;
     this.capacidadActual=0;
 }
