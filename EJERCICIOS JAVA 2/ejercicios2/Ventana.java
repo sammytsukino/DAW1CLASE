@@ -1,3 +1,5 @@
+package ejercicios2;
+
 public class Ventana {
     private boolean abierta;
 

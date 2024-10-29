@@ -1,3 +1,5 @@
+package ejercicios2;
+
 public class Serie {
     private int actor;
     private String titulo;

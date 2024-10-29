@@ -1,3 +1,4 @@
+package ejercicios2;
 public class Motor {
     private boolean encendido;
 

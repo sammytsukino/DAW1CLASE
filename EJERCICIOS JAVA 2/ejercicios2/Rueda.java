@@ -1,3 +1,5 @@
+package ejercicios2;
+
 public class Rueda {
 
     private final int capacidadMaxima;
