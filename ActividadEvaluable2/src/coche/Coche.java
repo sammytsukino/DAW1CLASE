@@ -43,6 +43,7 @@ public class Coche {
 
 	public void setVelocidadActual(double velocidadActual) {
 		this.velocidadActual = velocidadActual;
+        System.out.println("Velocidad actual: " + velocidadActual + " km/h");
 	}
 
 	public String getMarca() {
@@ -127,12 +128,18 @@ public class Coche {
 		}
 
 		public static void main(String[] args) {
-			Coche coche1 = new Coche("Audi", A4, 1.8, TipoCombustible.GASOLINA, TipoAutomovil.BERLINA, 4, 2, Color.BLANCO);
+			
+			Coche coche1 = new Coche("Audi", 1995, 1.8, TipoCombustible.GASOLINA, TipoAutomovil.BERLINA, 4, 2, Color.BLANCO);
 			coche1.setVelocidadActual(90);
 			coche1.acelerar(30);
 			coche1.desacelerar(30);
 			coche1.frenar();
 
+			Coche coche2 = new Coche("BMW", 2012, 1.6, TipoCombustible.DIESEL, TipoAutomovil.COMPACTO, 3, 2, Color.ROJO);
+			coche2.setVelocidadActual(100);
+			coche2.acelerar(40);
+			coche2.desacelerar(50);
+			coche2.frenar();
 		}
 
 
