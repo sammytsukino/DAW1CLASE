@@ -1,5 +1,7 @@
 package actividadevaluable2;
 
+
+
 public class ViaLactea {
     private String nombre = null;
     private double masa = 0.0;
