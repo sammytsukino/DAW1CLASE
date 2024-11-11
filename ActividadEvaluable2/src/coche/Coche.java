@@ -126,5 +126,15 @@ public class Coche {
 			System.out.println("La velocidad actual del coche es: " + velocidadActual);
 		}
 
+		public static void main(String[] args) {
+			Coche coche1 = new Coche("Audi", A4, 1.8, TipoCombustible.GASOLINA, TipoAutomovil.BERLINA, 4, 2, Color.BLANCO);
+			coche1.setVelocidadActual(90);
+			coche1.acelerar(30);
+			coche1.desacelerar(30);
+			coche1.frenar();
+
+		}
+
+
 
 	} 
