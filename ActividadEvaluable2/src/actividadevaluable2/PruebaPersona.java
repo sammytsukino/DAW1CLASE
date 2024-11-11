@@ -2,8 +2,8 @@ package actividadevaluable2;
 
 public class PruebaPersona {
     public static void main(String[] args) {
-        Persona persona1 = new Persona("Miguel Ángel", "Conde Díaz", "38678765Q", 1976);
-        Persona persona2 = new Persona("Daniel", "Díaz Pérez", "28898765M", 1990);
+        Persona persona1 = new Persona("Miguel Ángel", "Conde Díaz", "38678765Q", 1976, 'H');
+        Persona persona2 = new Persona("Daniel", "Díaz Pérez", "28898765M", 1990, 'H');
         
         System.out.println("Datos de las personas:");
         System.out.println("------------------------");
