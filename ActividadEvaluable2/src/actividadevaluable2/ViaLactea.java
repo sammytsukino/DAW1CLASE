@@ -28,6 +28,7 @@ public class ViaLactea {
         System.out.println("Diametro: " + diametro);
         System.out.println("Es Observable: " + esObservable);
         System.out.println("Es Exterior: " + esExterior);
+        System.out.println("---------------");
     }
 
     public void getDensidad(){
@@ -44,6 +45,11 @@ public static void main(String[] args) {
     ViaLactea p2 = new ViaLactea("Venus", 4.869, 12104.0, 6052, true, false);
     ViaLactea p3 = new ViaLactea("Marte", 3.3023, 4879.0, 2439, true, false);
     ViaLactea p4 = new ViaLactea("Júpiter", 1.898, 88.9, 147, true, false);
+    
+p1.imprimirXPantalla();
+p2.imprimirXPantalla();
+p3.imprimirXPantalla();
+p4.imprimirXPantalla();
 
 
 System.out.println("El planeta " + p1.nombre + " tiene una densidad de " + p1.masa/p1.volumen + " y un diametro de " + p1.diametro);
