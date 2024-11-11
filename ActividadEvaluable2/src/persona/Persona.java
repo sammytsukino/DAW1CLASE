@@ -1,4 +1,4 @@
-package actividadevaluable2;
+package persona;
 
 public class Persona {
 	

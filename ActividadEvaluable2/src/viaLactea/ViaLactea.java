@@ -1,8 +1,17 @@
-package actividadevaluable2;
+package viaLactea;
 
 
 
 public class ViaLactea {
+	
+
+public enum TipoElemento {
+    LIQUIDO,
+    TERRESTRE,
+    GASEOSO
+
+}
+
     private String nombre = null;
     private double masa = 0.0;
     private double volumen = 0.0;

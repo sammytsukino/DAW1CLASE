@@ -1,4 +1,4 @@
-package actividadevaluable2;
+package viaLactea;
 
 public enum TipoElemento {
     LIQUIDO,
