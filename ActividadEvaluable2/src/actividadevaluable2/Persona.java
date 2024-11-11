@@ -1,3 +1,5 @@
+package actividadevaluable2;
+
 public class Persona {
 	
     private String nombre;
