@@ -134,6 +134,7 @@ public class Coche {
 			coche1.acelerar(30);
 			coche1.desacelerar(30);
 			coche1.frenar();
+			System.out.println("---------------------");
 
 			Coche coche2 = new Coche("BMW", 2012, 1.6, TipoCombustible.DIESEL, TipoAutomovil.COMPACTO, 3, 2, Color.ROJO);
 			coche2.setVelocidadActual(100);
